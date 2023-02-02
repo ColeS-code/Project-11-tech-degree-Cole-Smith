@@ -1,9 +1,8 @@
 
 import './App.css';
-import 'nav';
 
 
-function nav(props) {
+const nav = (props) => {
   return (
     <p>
 
