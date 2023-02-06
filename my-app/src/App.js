@@ -2,17 +2,9 @@
 import './App.css';
 
 
-const nav = (props) => {
+const App = (props) => {
   return (
-    <p>
-
-      <a type='button'>Cats</a>
-
-      <a type='button'>Dogs</a>
-
-      <a type='button'>Birds</a>
-
-    </p>
+    <p>Hello There!</p>
   );
 }
 
