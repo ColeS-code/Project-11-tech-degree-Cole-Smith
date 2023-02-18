@@ -7,9 +7,11 @@ import Header from './Header';
 
 import Photo from './Photo';
 
+import Search from './Search';
+
 function App() {
   return (
-    <><Nav /><Header /> <Photo /></>
+    <><Nav /><Header /> <Photo /> <Search /></>
   );
 }
 

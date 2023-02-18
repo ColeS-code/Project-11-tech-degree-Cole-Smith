@@ -2,10 +2,10 @@ import React from 'react';
 
 function Nav() {
     return (
-       <ul>
-        <li>Cats</li>
-        <li>Dogs</li>
-        <li>Birds</li>
+       <ul id="Nav Link">
+        <a href="#"><li>Cats</li></a>
+        <a href="#"><li>Dogs</li></a>
+        <a href="#"><li>Birds</li></a>
        </ul>
     );
 }
