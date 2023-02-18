@@ -22,5 +22,10 @@ header {
 
 li {
   text-align: center;
-  text-decoration: none;
+  list-style: none;
+}
+
+input {
+  display: flex;
+  justify-content: center;
 }
