@@ -14,18 +14,75 @@ code {
 h1 {
   text-align: center;
 }
-
-header {
-  text-align: center;
-  color: forestgreen;
-}
-
 li {
   text-align: center;
   list-style: none;
 }
 
-input {
+img {
+  width: 200px;
+  height: 200px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+  background-color: olivedrab;
+  color: black;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+/* containers*/
+form.search-form {
   display: flex;
   justify-content: center;
+  padding-bottom: 25px;
 }
+
+
+ul.list-items {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px;
+  
+}
+
+ul.list-imgs {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  -ms-align-items: flex-start;
+  align-items: flex-start;
+  padding: 0px;
+}
+
+.photoContainer {
+  margin-left: 350px;
+  margin-right: 350px;
+  padding-left: 50px;
+  padding-right: 50px;
+  
+}
+
+.container {
+  padding-top: 25px;
+}
+input[type='search'] {
+  background: lightgrey;
+  border-radius: 3px;
+  width: 250px;
+  height: 40px;
+}
+
+button.search-button {
+  background: olivedrab;
+  width: 50px;
+}
+
+
+
+
+
+
+

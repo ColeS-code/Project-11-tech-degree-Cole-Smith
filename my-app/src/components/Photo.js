@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Photo() {
+const Photo = (props) => {
     return (
-        <ul>
-            <li>Will Display Gifs</li>
-        </ul>
-    );
-}
+        <li>
+            <img src= {`https://live.staticflickr.com/${props.server}/${props.id}_${props.secret}.jpg`} alt={props.alt} ></img>
+        </li>
+    )
+};
 
 export default Photo;
