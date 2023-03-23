@@ -6,7 +6,7 @@ import PhotoContainer from "./PhotoContainer";
 
 const Birds = () => {
     const [photos, setPhotos] = useState([]);
-    const [loading, setLoading] = useState(true);
+    const [, setLoading] = useState(true);
 
     // 
     useEffect(() => {
